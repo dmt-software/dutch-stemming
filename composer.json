@@ -1,0 +1,25 @@
+{
+  "name": "dmt-software/dutch-stemming",
+  "description": "Dutch text analyser",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bas de Mes",
+      "email": "bas@dmt-software.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DMT\\Dutch\\Stemming\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DMT\\Test\\Dutch\\Stemming\\": "tests/"
+    }
+  }
+}
